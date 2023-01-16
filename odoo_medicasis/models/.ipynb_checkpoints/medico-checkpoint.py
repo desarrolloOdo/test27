@@ -11,6 +11,7 @@ class medico(models.Model):
     description = fields.Text(string='Description')
     telefono = fields.Char(string='Numero de contacto',required=True)
     correo = fields.Char(string='Correo Electronico',required=True)
+    tarifa = fields.Char(string='Cargo por consulta')
     level = fields.Selection(string='Level',
                             selection=[('beginner','Beginner'),
                                       ('intermediate','Intermediate'),
@@ -18,3 +19,4 @@ class medico(models.Model):
                             copy=False)
     
     active = fields.Boolean(string='Active', default=True)
+    info = fields.Text(string='Info Extra')

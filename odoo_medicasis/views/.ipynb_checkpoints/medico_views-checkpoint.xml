@@ -16,11 +16,15 @@
                             <group>
                                 <field name="telefono"/>
                                 <field name="correo"/>
+                                <field name="tarifa"/>
                             </group>
                        </group>
                        <notebook>
                            <page string="Description">
                                <field name="description"/>
+                           </page>
+                           <page string="Info extra">
+                               <field name="info"/>
                            </page>
                        </notebook>
                    </sheet>
@@ -36,6 +40,8 @@
                     <field name="name"/>
                     <field name="description"/>
                     <field name="level"/>
+                    <field name="telefono"/>
+                    <field name="correo"/>
                 </tree>
             </field>
         </record>
@@ -47,6 +53,8 @@
                 <search>
                         <field name="name"/>
                         <field name="description"/>
+                        <field name="telefono"/>
+                        <field name="correo"/>
                 </search>
             </field>
         </record>
