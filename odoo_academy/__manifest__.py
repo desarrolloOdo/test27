@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 {
-    'name': 'Odoo MedicaSis',
+    'name': 'Odoo Academy',
     
     'summary':"""medica app to manage date""",
     
@@ -25,8 +25,8 @@
     
     ],
     
+    'demo':[
+    ],
     
-    
-     'license': 'LGPL-3',
-    
+     'license': 'LGPL-3'
 }
