@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+         <record model="ir.actions.act_window" id="medico_list_action">
+            <field name="name">Medicos</field>
+            <field name="res_model">medicasis.medico</field>
+            <field name="view_mode">tree,form</field>
+            <field name="help" type="html">
+                <p class="o_view_nocontent_smiling_face">
+                    Crear Registro de medico
+                </p>
+            </field>
+        </record>
+        
+        <menuitem name="Odoo Medicasis"
+                  id="menu_medicasis"
+                  sequence="1"/>
+        
+        <menuitem id="menu_medicasis_sub" name="Odoo Medicasis" parent="menu_medicasis" sequence="2" />
+        
+        <menuitem id="menu_medicasis_medicos" name="Medicos" parent="menu_medicasis_sub" sequence="3" 
+                  action="medico_list_action"/>
+    </data>   
+</odoo>

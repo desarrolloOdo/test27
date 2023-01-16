@@ -24,9 +24,10 @@
 
     # always loaded
     'data': [
-        # 'security/ir.model.access.csv',
-        'views/views.xml',
-        'views/templates.xml',
+        'security/medicasis_security.xml',
+        'security/ir.model.access.csv',
+        'views/medicasis_menuitems.xml',
+        'views/medico_views.xml',
     ],
     # only loaded in demonstration mode
     'demo': [
