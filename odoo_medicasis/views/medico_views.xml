@@ -5,7 +5,7 @@
             <field name="name">medicasis.medico.form</field>
             <field name="model">medicasis.medico</field>
             <field name="arch" type="xml">
-               <form string="Medico Form">
+               <form string="Medicos Form">
                    <sheet>
                        <h1><field name="name"></field></h1>
                        <group>
